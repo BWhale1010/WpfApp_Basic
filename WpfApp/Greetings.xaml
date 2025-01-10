@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
         Title="Greetings" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="HelloWPFApp">
         <TextBox HorizontalAlignment="Center" Margin="0,95,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top" Width="347"/>
         <RadioButton x:Name="HelloButton" Content="Hello" IsChecked="True" HorizontalAlignment="Left" Margin="226,154,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="487,161,0,0" VerticalAlignment="Top"/>
